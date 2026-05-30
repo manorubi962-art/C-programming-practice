@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<math.h>
+//Logical Operators
+int main(){
+//	&& Operators
+//___________
+//T__F__F |
+//T__T__T |
+//F__T__F |
+//F__F__F |
+
+//|| Operators
+//T__T__T |
+//T__F__T |
+//F__T__T |
+//F__F__F |
+//
+//! Operators
+//T__F |
+//F__T |
+	printf("%d\n",5<2 && 4>2);
+	printf("%d\n",6>2 && 1>0);
+//	If both values will be true so our answer will be true otherwise will be false in && Operators.
+	printf("%d\n",6>2 || 3>4);
+	printf("%d\n",6<4 || 3<2);
+//	if one value will be true so its answer will true and if both values false so its answer will be false. 
+    printf("%d\n",5>6 != 4>2);
+    printf("%d\n",5>5!=2>2);
+//    if one condition is true here answer will return false it means its opposite by condition.
+   return 0;
+};
