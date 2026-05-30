@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+//Student table:
+int age=20;
+char grade='B';
+float marks=80.30;
+double d='80.30000';
+printf("int:%d\n",age);
+printf("char:%c\n",grade);
+printf("float:%f\n",marks);
+printf("double:%lf\n",d);
+return 0;
+};
