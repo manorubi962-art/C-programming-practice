@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+char a[40];
+printf("Char variable use in C language and in C++ use string variable store any word.\n");
+scanf("%c",a);
+printf("%c",a);
+return 0;
+};
