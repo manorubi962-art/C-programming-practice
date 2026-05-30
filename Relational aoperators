@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+	int age=30;
+	printf("%d\n",age>18);	
+	printf("%d\n",age>31);
+	printf("%d\n",age<18);
+	printf("%d\n",age<32);
+	printf("%d\n",age==18);
+	printf("%d\n",age==31);
+	printf("%d\n",age>=18);
+	printf("%d\n",age<=18);
+	printf("%d\n",age!=18);
+	printf("%d\n",age%18);
+	printf("%d\n",age%=18);
+	return 0;
+}
