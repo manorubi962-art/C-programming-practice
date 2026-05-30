@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+//	Arithmatic Operators:
+//int variables
+ int a=10,b=9;
+// Sum operator
+ int sum=a+b;
+// Subtract Operator
+ int subtract=a-b;
+// Multiply Opeartor
+ int multiply=a*b;
+// Divide Operator
+ int divide=a/b;
+// modules operator
+ int remainder=a%b;
+// We did take output of all operators
+ printf("sum:%d\n",a+b);
+ printf("subtract:%d\n",a-b);
+ printf("multiply:%d\n",a*b);
+ printf("divide:%d\n",a,b);
+ printf("remainder:%d\n",a%b);
+ return 0;
+}
+}
+}
