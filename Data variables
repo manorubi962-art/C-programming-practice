@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+//	data type of variables input/output
+int a=20;
+char b='A';
+float c=22.78;
+double d=23.3451222;
+printf("int: %d\n",a);
+printf("char: %c\n",b);
+printf("float: %f\n",c);
+printf("double: %lf\n",d);
+return 0;
+}
