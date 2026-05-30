@@ -20,7 +20,9 @@ int main(){
  printf("multiply:%d\n",a*b);
  printf("divide:%d\n",a,b);
  printf("remainder:%d\n",a%b);
- return 0;
-}
-}
+//Precedence Arithmatic operators
+	int a=(4/6)*6-10+7;
+	printf("%d\n",a);
+//	scanf("%d",&a);
+	return 0;
 }
