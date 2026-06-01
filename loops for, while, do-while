@@ -1,0 +1,68 @@
+#include<stdio.h>
+int main(){
+//for loop
+int i=1;
+printf("print numbers:");
+scanf("%d",&i);
+for(int i=2; i<=10; i++){
+	printf("%d\n",i);
+}
+return 0;
+}
+---------------------------------
+//print tables in for loop:
+int n;
+printf("Print tables:");
+scanf("%d",&n);
+for(int i=1; i<=10; i++){
+	printf("%dx%d=%d\n",n,i,n*i);
+}
+return 0;
+}
+-----------------------------------
+//While loop
+int i=1;
+printf("print numbers in while:");
+scanf("%d",&i);
+while(i<=10){
+	printf("%d\n",i);
+i++;
+}
+return 0;
+}
+----------------------------------
+int n;
+printf("print t ables in while loop:");
+scanf("%d",&n);
+int i=1;
+while(i<=10){
+	printf("%dx%d=%d\n",n,i,n*i);
+	i++;
+}
+return 0;
+}
+-----------------------------------------
+
+//do-while loop
+int i;
+printf("print numbers:");
+scanf("%d",&i);
+do{
+	printf("%d\n",i);
+	i++;
+}
+while(i<=10);
+return 0;
+}
+-------------------------------------
+int n;
+printf("print t ables in while loop:");
+scanf("%d",&n);
+int i=1;
+do{
+	printf("%dx%d=%d\n",n,i,n*i);
+	i++;
+}
+while(i<=10);
+return 0;
+}
