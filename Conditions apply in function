@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+void printcondition(int n){
+if (n>10){
+	printf("true\n");
+}
+else
+{
+	printf("false\n");
+}
+}
+int main(){
+	printcondition(20);
+	return 0;
+}
+
