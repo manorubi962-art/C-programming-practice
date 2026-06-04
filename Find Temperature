@@ -1,0 +1,11 @@
+3include<iostream>
+using namespace std;
+float converttemp(float celcius){      //function prototype
+float far=celcius*(9.0/5.0)+32;       // formula or fehrinent
+return far;
+}
+int main(){
+float far= converttemp(37);
+cout<<"far "<<far;
+return 0;
+}
