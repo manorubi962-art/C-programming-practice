@@ -6,6 +6,6 @@ int fact(int a){  //function definition
 	return a*fact(a-1); //Recursive function 
 }
 int main(){
-	cout<<"fact"<<fact(6);  //function call
+	printf("far %d",far(6));  //function call
 	return 0;
 }
