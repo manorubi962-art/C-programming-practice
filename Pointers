@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	int x=1;  //store value 1 in x
+	int *ptr= &x; // Store the Address of x in ptr 
+	printf("x= %d\n", x); //print the value of x:1
+	printf("&x= %d\n", &x);// print the adress of x
+	printf("ptr= %d\n", ptr); // print the address store in a ptr
+	printf("*ptr = %d\n", *ptr);//print the value at address stored in ptr:1 
+	return 0;
+}
