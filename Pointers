@@ -8,3 +8,17 @@ int main(){
 	printf("*ptr = %d\n", *ptr);//print the value at address stored in ptr:1 
 	return 0;
 }
+-----------------------------------
+include<stdio.h>
+int main(){
+int x;  //declare an integer variable x
+int *ptr; //declare a pointer that can store adress of int
+ptr = &x; //store the address 
+*ptr += 10; //Add 10 the value at the address stored in ptr(i.e, x=x+10)
+printf("x= %d\n", x); //print the value of x as signed integer
+printf("*ptr= %d\n", *ptr); //print the value at the address ptr points
+printf("x= %u\n", x); //print the value of x as unsigned integer
+printf("*ptr = %u\n", *ptr); //print the value of address ptr pointd as unsigned integer
+printf("x= %p\n", &x);  //print the address of x correctly using %p.
+return 0;
+}
