@@ -1,0 +1,17 @@
+#include<stdio.h>
+int by_value(int a){
+	a=45; //copy
+	printf("by_value a=%d\n", a); //print copy a
+}
+int _by_reference(int *b){
+	*b=23; //copy
+	printf("by_reference b=%d\n", *b); //print copy b
+}
+int main(){
+	int num=5; store num 5
+	printf(" num=%d\n", num); print num
+	by_value(num); //function value
+	_by_reference(&num); 
+	printf("b =%p\n", num); //print num
+	return 0;
+}
