@@ -1,0 +1,14 @@
+#include<string.h>
+int length(int arr[]){
+	int count=0;
+	for(int i=0; arr[i]!='\0'; i++){
+	count++;
+	}
+	return count-1;
+}
+int main(){
+	char name[]= "zaraarooj";
+	int length=strlen(name);
+	printf("length: %d", strlen(name));
+	return 0;
+}
