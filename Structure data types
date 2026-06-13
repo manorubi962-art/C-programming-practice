@@ -1,0 +1,58 @@
+include<stdio.h>
+include<string.h>
+struct marks{
+	int age;
+	char name[10];
+	float cgpa;
+};     
+int main(){
+	struct marks a1;
+	a1.age=20;
+	strcpy(a1.name, "hello");
+	a1.cgpa=2.9;
+	printf(" age=%d\n name=%s\n cgpa=%.1f\n", a1.age,a1.name, a1.cgpa);
+return 0;	
+}
+------------Function of structures----------------------------
+----------strcmp-------------
+include<stdio.h>
+include<string.h>
+int main(){
+	char str1[10]="Ali";
+	char str2[10]="Hamza";
+	strcmp(str2,str1==0);
+	if(str1>str2){
+		printf("Hello");
+	}
+	else{
+		printf("Hi");
+	}
+	return 0;
+}
+
+strcpy-----------
+int main(){
+	char str1[10]="Ali";
+	char str2[10]="Hamza";
+	strcpy(str2,str1);
+	printf(" %s\n%s\n", str1,str2);
+	return 0;
+}
+--------strlen----------
+int main(){
+	char str1[20]="Ali hello";
+	char str2[20]="hello world";
+	int len1=strlen(str1);
+	int len2=strlen(str2);
+	printf(" %d\n",len1);
+	printf(" %d\n",len2);
+	return 0;
+}
+---------------strcat-----------
+int main(){
+	char str1[20]="hello";
+	char str2[20]="world";
+	strcat(str2,str1);
+	printf("%s\n",str2);
+	return 0;
+}
